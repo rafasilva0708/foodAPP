@@ -1,0 +1,103 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #D21D5E, #feb47b);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Título */
+h1 {
+  font-size: 2.5rem; /* Responsivo por padrão para fontes */
+  background: #f14786;
+  padding: 1rem 2rem; /* Usando rem para escalabilidade */
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  margin: 6vh 0; /* Margem em unidades relativas à altura da viewport */
+}
+
+/* Botão */
+button {
+  background-color: #ffffff; /* Rosa Claro */
+  color: #000000; /* Preto */
+  border: none;
+  border-radius: 20px;
+  padding: 1rem 2rem; /* Tamanho responsivo */
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 2vh 0; /* Espaço responsivo em volta do botão */
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #0077cc; /* Azul mais escuro no hover */
+  transform: translateY(-0.3rem); /* Elevação no hover */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); /* Sombra mais forte */
+}
+
+/* Texto de Resultado */
+#result {
+  font-size: 1.3rem;
+  margin-top: 2vh;
+  width: auto; /* Ajuste dinâmico ao texto */
+  text-align: center;
+  font-weight: bold;
+  color: #000000; /* Texto preto */
+  display: none; /* Oculto inicialmente */
+}
+
+/* Container de Imagem */
+.image-container {
+  position: fixed;
+  bottom: 1vh; /* Responsivo em relação à altura da viewport */
+  right: 36vw; /* Responsivo em relação à largura da viewport */
+}
+
+.image-container img {
+  width: 10vw; /* Escala com base na largura da viewport */
+  max-width: 300px; /* Limite para imagens muito grandes */
+  height: auto;
+  opacity: 0.8; /* Transparência opcional */
+  transition: opacity 0.3s;
+}
+
+.image-container img:hover {
+  opacity: 1;
+}
+
+/* Consultas de mídia para telas menores */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem; /* Reduz o tamanho do título em telas pequenas */
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .image-container img {
+    width: 15vw; /* Maior flexibilidade para imagens em telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+    padding: 0.8rem 1rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .image-container img {
+    width: 20vw; /* Ajuste adicional para imagens em telas muito pequenas */
+  }
+}

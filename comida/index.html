@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha Refeição</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Escolha a sua Refeição</h1>
+    <button id="choose-button">Escolhe a Refeição</button>
+    <p id="result"></p>
+
+    <div class="image-container">
+        <img src="sandes.png">
+        <img src="hamburguer.png">
+        <img src="pizza.png">
+
+    </div>
+
+    <script>
+        let comidas = []
+
+        fetch('comidas.json')
+            .then(response => response.json())
+            .then(data => {
+            comidas = data; // Salvar os dados carregados
+        })
+        .catch(error => console.error('Erro ao carregar o JSON:', error));
+
+        document.getElementById('choose-button').addEventListener('click', () => {
+            if(comidas.length == 0) {
+                document.getElementById('result').textContent = "Dados ainda não carregados";
+                return;
+            }
+            const randomIndex = Math.floor(Math.random() * comidas.length);
+            const comidaEscolhida = comidas[randomIndex];
+            document.getElementById('result').textContent = `Hoje vais comer ${comidaEscolhida.nome}!`;
+
+            document.getElementById('result').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
