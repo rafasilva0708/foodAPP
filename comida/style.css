@@ -55,7 +55,7 @@ button:hover {
 .image-container {
   position: fixed;
   bottom: 1vh; /* Mantém a imagem próxima ao rodapé */
-  left: 50%; /* Centraliza horizontalmente */
+  left: 35%; /* Centraliza horizontalmente */
   text-align: center; /* Garantia adicional para centralização de conteúdo interno */
 }
 
