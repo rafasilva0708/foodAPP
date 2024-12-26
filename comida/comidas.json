@@ -31,7 +31,18 @@
     { "nome": "Pizza", "categoria": "prato principal" },
     { "nome": "Lasanha", "categoria": "prato principal" },
     { "nome": "Mexicano", "categoria": "prato principal" },
-    { "nome": "Hambúrgue no pão", "categoria": "prato principal" },
-    { "nome": "Hambúrgue no prato", "categoria": "prato principal" }
+    { "nome": "Hambúrguer no pão", "categoria": "prato principal" },
+    { "nome": "Hambúrguer no prato", "categoria": "prato principal" },
+    { "nome": "Almôndegas com esparguete", "categoria": "prato principal" },
+    { "nome": "Picanha", "categoria": "prato principal" },
+    { "nome": "Lombinhos à Barreirense", "categoria": "prato principal" },
+    { "nome": "Secretos de Porco preto", "categoria": "prato principal" },
+    { "nome": "Perú", "categoria": "prato principal" },
+    { "nome": "Lombo de porco", "categoria": "prato principal" },
+    { "nome": "Peixe assado com legumes", "categoria": "prato principal" },
+    { "nome": "Espetadas", "categoria": "prato principal" },
+    { "nome": "Salada de polvo", "categoria": "prato principal" },
+    { "nome": "Choco Frito", "categoria": "prato principal" },
+    { "nome": "Peixe assado com legumes", "categoria": "prato principal" }
 
 ]

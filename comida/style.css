@@ -56,7 +56,6 @@ button:hover {
   position: fixed;
   bottom: 1vh; /* Mantém a imagem próxima ao rodapé */
   left: 50%; /* Centraliza horizontalmente */
-  transform: translateX(-50%); /* Ajusta o centro em relação ao ponto de origem */
   text-align: center; /* Garantia adicional para centralização de conteúdo interno */
 }
 
