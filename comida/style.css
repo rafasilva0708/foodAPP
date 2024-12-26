@@ -55,12 +55,13 @@ button:hover {
 .image-container {
   position: fixed;
   bottom: 1vh; /* Mantém a imagem próxima ao rodapé */
-  left: 28%; /* Centraliza horizontalmente */
+ /* left: 28%; /* Centraliza horizontalmente */
   text-align: center; /* Garantia adicional para centralização de conteúdo interno */
 }
 
 .image-container img {
   width: 10vw; /* Escala com base na largura da viewport */
+  padding-right: 2.5rem;
   max-width: 300px; /* Limite para imagens muito grandes */
   height: auto;
   opacity: 0.8; /* Transparência opcional */
