@@ -71,10 +71,11 @@ button:hover {
   opacity: 1;
 }
 
-/* Consultas de mídia para telas menores */
+/*
+
 @media (max-width: 768px) {
   h1 {
-    font-size: 2rem; /* Reduz o tamanho do título em telas pequenas */
+    font-size: 2rem; 
   }
 
   button {
@@ -83,7 +84,7 @@ button:hover {
   }
 
   .image-container img {
-    width: 15vw; /* Maior flexibilidade para imagens em telas menores */
+    width: 15vw; 
   }
 }
 
@@ -99,6 +100,7 @@ button:hover {
   }
 
   .image-container img {
-    width: 20vw; /* Ajuste adicional para imagens em telas muito pequenas */
+    width: 20vw; /* Ajuste adicional para imagens em telas muito pequenas 
   }
 }
+*/
