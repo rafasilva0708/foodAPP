@@ -54,8 +54,10 @@ button:hover {
 /* Container de Imagem */
 .image-container {
   position: fixed;
-  bottom: 1vh; /* Responsivo em relação à altura da viewport */
-  right: 36vw; /* Responsivo em relação à largura da viewport */
+  bottom: 1vh; /* Mantém a imagem próxima ao rodapé */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translateX(-50%); /* Ajusta o centro em relação ao ponto de origem */
+  text-align: center; /* Garantia adicional para centralização de conteúdo interno */
 }
 
 .image-container img {
