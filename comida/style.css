@@ -71,7 +71,7 @@ button:hover {
   opacity: 1;
 }
 
-/*
+
 
 @media (max-width: 768px) {
   h1 {
@@ -84,7 +84,7 @@ button:hover {
   }
 
   .image-container img {
-    width: 15vw; 
+    width: 10vw; 
   }
 }
 
@@ -100,7 +100,7 @@ button:hover {
   }
 
   .image-container img {
-    width: 20vw; /* Ajuste adicional para imagens em telas muito pequenas 
+    width: 15vw;  
   }
 }
-*/
+
